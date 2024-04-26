@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -47,6 +48,31 @@ button{
     width: 70px;
     height: 70px;
     background-color: black;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: red;
+}
+button:active{
+    background-color: green;
+}
+
+button#nClean{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    width: 290px;
+    height: 70px;
+    background-color: black;
+    cursor: pointer;
+}
+button#nClean:hover{
+    background-color: red;
+}
+button#nCLean:active{
+    background-color: green;
 }
 
 p{
@@ -61,4 +87,5 @@ p{
     font-weight: bolder;
     font-size: 30px;
     align-items: center;
+    padding: 5px 10px;
 }
